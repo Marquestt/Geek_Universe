@@ -1,0 +1,117 @@
+body {
+    text-align: center;
+    background-image: url("../imagens/bg.png");
+    color: #000;
+    font-size: 20px;
+}
+
+h1, h2, h3, .page, .site {
+    font-family: 'Sacramento', cursive;
+}
+
+h1 {
+    font-size: 40px;
+    color: #000;
+}
+
+h2, h3 {
+    font-size: 35px;
+}
+
+header{
+	background-color: #FEFB81;
+	display: flex;
+	flex-basis:100%;
+}
+header a {
+            color: #46613a;
+            font-size: 25px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+header nav ul {
+            display: flex;
+			margin-left: 150px;
+			margin-top: 40px;
+            column-gap: 30px;
+            list-style-type: none;
+            justify-content: center;
+			font-size: 25px;
+			font-weight:bold;
+			color: #ba44d5;
+        }
+header nav {
+		display: flex;
+		justify-content: center;
+}
+a, .page {
+    font-size: 25px;
+}
+
+a {
+    color: #46613a;
+}
+
+a:hover {
+    color: #bc2020;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10%;
+    border: 3px #46613a solid;
+    padding: 5px;
+}
+
+.linha {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+	margin-right: 15px;
+}
+
+.jogo {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    box-sizing: border-box;
+
+}
+
+h3 {
+    font-size: 20px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    h2, h3 {
+        font-size: 30px;
+    }
+
+    a, .page {
+        font-size: 20px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10%;
+        padding: 5px;
+    }
+
+    .linha {
+        flex-direction: column;
+    }
+
+    .jogo {
+        width: 100%;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+}

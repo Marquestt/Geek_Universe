@@ -1,17 +1,13 @@
 body {
     text-align: center;
-    background-image: url("../imagens/bg.png");
-    color: #000;
+    /*background-image: url("../imagens/bg.png");*/
+    background-color: #E2B0ED;
     font-size: 20px;
-}
-
-h1, h2, h3, .page, .site {
-    font-family: 'Sacramento', cursive;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 h1 {
     font-size: 40px;
-    color: #000;
 }
 
 h2, h3 {
@@ -19,12 +15,14 @@ h2, h3 {
 }
 
 header{
-	background-color: #FEFB81;
+	background-color: #BBEDB0;
 	display: flex;
-	flex-basis:100%;
+	flex-basis: 100%;
+    padding-left: 1.2em;
+    border-radius: 30px;
 }
 header a {
-            color: #46613a;
+            color: #5C6041;
             font-size: 25px;
             font-weight: bold;
             text-decoration: none;
@@ -38,7 +36,7 @@ header nav ul {
             justify-content: center;
 			font-size: 25px;
 			font-weight:bold;
-			color: #ba44d5;
+			color: #C69ACF;
         }
 header nav {
 		display: flex;

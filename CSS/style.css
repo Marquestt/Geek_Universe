@@ -1,7 +1,6 @@
 body {
     text-align: center;
-    /*background-image: url("../imagens/bg.png");*/
-    background-color: #E2B0ED;
+    background-color: #FFFFFF;
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -15,50 +14,49 @@ h2, h3 {
 }
 
 header{
-	background-color: #BBEDB0;
-	display: flex;
-	flex-basis: 100%;
+    display: flex;
+    flex-basis: 100%;
     padding-left: 1.2em;
     border-radius: 30px;
 }
 header a {
-            color: #5C6041;
+            color: #FF4C4C;
             font-size: 25px;
             font-weight: bold;
             text-decoration: none;
         }
 header nav ul {
             display: flex;
-			margin-left: 150px;
-			margin-top: 40px;
+	    margin-left: 150px;
+	    margin-top: 40px;
             column-gap: 30px;
             list-style-type: none;
             justify-content: center;
-			font-size: 25px;
-			font-weight:bold;
-			color: #C69ACF;
+	    font-size: 25px;
+	    font-weight:bold;
+	    color: #00B2FF;
         }
 header nav {
-		display: flex;
-		justify-content: center;
+	    display: flex;
+	    justify-content: center;
 }
 a, .page {
     font-size: 25px;
 }
 
 a {
-    color: #46613a;
+    color: #FF4C4C;
 }
 
 a:hover {
-    color: #bc2020;
+    color: #00B2FF;
 }
 
 img {
     max-width: 100%;
     height: auto;
     border-radius: 10%;
-    border: 3px #46613a solid;
+    border: 3px #FF4C4C solid;
     padding: 5px;
 }
 

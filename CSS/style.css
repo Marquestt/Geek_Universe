@@ -60,7 +60,7 @@ img {
     padding: 5px;
 }
 
-.linha {
+main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

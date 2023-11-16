@@ -79,6 +79,36 @@ h3 {
     font-size: 20px;
 }
 
+input {
+    background-color: #FFFFFF;
+    border-color: #00B2FF;
+    color: #00B2FF;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.botoes :hover {
+    background-color: #00B2FF;
+    color: #FFFFFF;
+}
+
+.botoes :nth-child(odd):hover {
+    background-color: #FF4C4C;
+    color: #FFFFFF;
+}
+
+.botoes :nth-child(odd) {
+    border-color: #FF4C4C;
+    color: #FF4C4C;
+}
+
+#texto :nth-child(even) {
+    border-color: #00B2FF;
+}
+
+.azul {
+    border-color: #00B2FF;
+}
 
 @media only screen and (max-width: 600px) {
     h1 {

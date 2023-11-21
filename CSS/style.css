@@ -52,12 +52,20 @@ a:hover {
     color: #00B2FF;
 }
 
+#fieldset{
+	border: 3px #FF4C4C solid;
+}
+
 img {
     max-width: 100%;
     height: auto;
     border-radius: 10%;
     border: 3px #FF4C4C solid;
     padding: 5px;
+}
+
+ul{
+text-align: left
 }
 
 main {

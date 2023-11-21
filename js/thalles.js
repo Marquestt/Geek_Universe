@@ -19,5 +19,5 @@ imagens.addEventListener("click", () =>{
         const texto = document.getElementById("texto");
         const titulo = document.getElementById("titulo");
         texto.innerHTML = '<img src="imagens/ff6-1.png" class = "jogo" alt="foto de gameplay do jogo"><img src="imagens/ff6-2.png" class = "jogo" alt="foto de gameplay do jogo"><img src="imagens/ff6-3.png" class = "jogo" alt="foto de gameplay do jogo"><img src="imagens/ff6-4.png" class = "jogo" alt="foto de gameplay do jogo"><img src="imagens/ff6-5.png" class = "jogo" alt="foto de gameplay do jogo"><img src="imagens/ff6-6.png" class = "jogo" alt="foto de gameplay do jogo">';
-        titulo.innerText = "Imagens do Jogo";
+        titulo.innerHTML = '<h3>Imagens do Jogo</h3>';
     });

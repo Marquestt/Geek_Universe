@@ -18,6 +18,9 @@ header{
     flex-basis: 100%;
     padding-left: 1.2em;
     border-radius: 30px;
+    position: sticky;
+    top: 0;
+    background-color: #FFFFFF;
 }
 header a {
             color: #FF4C4C;

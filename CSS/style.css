@@ -55,6 +55,7 @@ a:hover {
 #fieldset{
 	border: 3px #FF4C4C solid;
 	border-radius: 10px;
+	margin-bottom: 20px;
 }
 
 img {

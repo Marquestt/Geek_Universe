@@ -8,7 +8,7 @@ fieldset.appendChild(lista);
 botao.addEventListener("click", function() {
     const jogo = entrada.value;
     const item = document.createElement("li");
-	const deletar = document.createElement("button");
+//	const deletar = document.createElement("button");
     //deletar.textContent = "Delete";
 	//deletar.style.display = 'none';
     item.textContent = jogo;
